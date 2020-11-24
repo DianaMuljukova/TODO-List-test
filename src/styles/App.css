@@ -1,0 +1,39 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  background-color: #F3F7FA;
+  color: #4A4A4A;
+}
+
+.container {
+
+  width: 100%;
+
+  @include small {
+    max-width: 540px;
+  }
+
+  @include medium {
+    max-width: 720px;
+  }
+
+  @include large {
+    max-width: 960px;
+  }
+
+  @include xl {
+    max-width: 1140px;
+  }
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

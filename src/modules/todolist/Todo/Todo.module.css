@@ -1,0 +1,28 @@
+.todoItem {
+    padding: 10px 10px 10px 20px;
+    border-top: 1px solid darkgrey;
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+}
+
+.todoItem:last-of-type {
+    border-bottom: 1px solid darkgrey;
+}
+
+.todoItem header {
+    padding-bottom: 20px;
+}
+
+
+.todoTitle {
+    color: cornflowerblue;
+    word-break: break-all;
+}
+
+.todoDescription {
+    word-break: break-all;
+}
+
+.todoDate {
+    text-align: right;
+}

@@ -68,7 +68,7 @@ export default function ModalAdd(props: {isOpen: boolean, toggleIsOpen: (status:
     };
 
     const handleKeyPress = (event: React.KeyboardEvent) => {
-        if (event.key === 'Enter' && todo.name.length > 3) {
+        if (event.key === 'Enter' && todo.name.length >= 3) {
             handleSubmit()
         }
     };
